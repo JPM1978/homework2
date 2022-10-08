@@ -36,7 +36,7 @@ ken.defense = 5
 
 while (ryu.health > 0 || ken.health > 0){ // run loop while fighters have health > 0
    
-  // console.log("This is the start of the while loop")
+
   // console.log(`ken's health is ${ken.health} before he attacks`)
    ken.attack(ryu)
     if (ryu.health === 0){
