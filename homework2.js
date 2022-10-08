@@ -33,7 +33,6 @@ ken.health = 10
 ken.strength = 9
 ken.defense = 5
 
-console.log(ryu.strength)
 
 while (ryu.health > 0 || ken.health > 0){ // run loop while fighters have health > 0
    
